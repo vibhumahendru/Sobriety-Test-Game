@@ -307,6 +307,7 @@ function topScore(array) {
       timerBox.innerHTML = ""
       drawVal = 0
       topScoreDiv.innerHTML = ""
+      drawButton.style.display = "block"
       statBox.innerHTML = ""
       statBox.style.backgroundColor = "white"
   })
