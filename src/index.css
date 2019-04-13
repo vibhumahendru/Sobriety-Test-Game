@@ -1,0 +1,119 @@
+.grid-container-1 {
+  display: inline-grid;
+}
+
+.grid-item{
+  width: 50px;
+  height: 50px;
+  border:1px solid black;
+}
+
+.grid-container-2 {
+  float: left;
+}
+.grid-container-3 {
+  float: left;
+}
+
+.grid-container-4 {
+  float: left;
+}
+
+.grid-container-5 {
+  float: left;
+}
+
+.grid-container-6 {
+  float: left;
+}
+
+.grid-container-7 {
+  float: left;
+}
+
+.grid-container-8 {
+  float: left;
+}
+
+#start{
+  background-color: yellow;
+}
+
+#finish{
+  background-color: orange;
+}
+
+#stat{
+  width: 300px;
+  height: 300px;
+  /* border:1px solid black; */
+  float: right;
+  display: none;
+  position: fixed;
+  bottom: 00px;
+  right: 200px;
+}
+
+#timer{
+  width: 300px;
+  height: 50px;
+  border:1px solid #ffe6e6;
+  float: right;
+  display: none;
+  position: fixed;
+  bottom: 400px;
+  right: 200px;
+}
+#top-score{
+  width: 300px;
+  height: 100px;
+  border:1px solid black;
+  float: right;
+  display: none;
+  position: fixed;
+  bottom: 550px;
+  right: 200px;
+}
+
+#reset-btn{
+  display: none;
+  position: fixed;
+  bottom: 400px;
+  left: 450px;
+}
+
+#save-btn{
+  display: none;
+
+}
+#draw-btn{
+  display: none;
+
+}
+#start-btn{
+  display: none;
+
+}
+
+.parent-container{
+  display: none;
+}
+
+#newMap-btn{
+  display: none;
+}
+
+#save-score{
+  display: none;
+  position: fixed;
+  bottom: 380px;
+  left: 450px;
+}
+
+body{
+  background-color: #ffe6e6;
+}
+
+#heading{
+  text-align: center;
+}
